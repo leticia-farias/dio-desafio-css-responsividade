@@ -8,7 +8,7 @@ h1 {
     font-family: var(--font-title);
     font-size: 3.2rem;
     font-weight: 400;
-    /* white-space: pre; */
+    white-space: pre-line;
 }
 
 h2 {
@@ -20,6 +20,7 @@ h2 {
     font-family: var(--font-title);
     font-size: 3.2rem;
     font-weight: 400;
+    white-space: pre-line;
 }
 
 p,
@@ -50,54 +51,12 @@ footer {
 }
 
 @media (min-width: 800px) {
-
-    h2,
-    p,
-    button {
-        font-family: var(--font-body);
-    }
-
     h1 {
-        font-family: var(--font-title);
         font-size: 5.6rem;
-        font-weight: 400;
-        /* white-space: pre; */
     }
 
     h2 {
         font-size: 4rem;
-        font-weight: 800;
     }
 
-    .h2-title {
-        font-family: var(--font-title);
-        font-weight: 400;
-    }
-
-    p,
-    button {
-        font-size: 1.6rem;
-    }
-
-    button {
-        background-color: #fff;
-        color: var(--primary-color);
-    }
-
-    .other-button {
-        background-color: var(--primary-color);
-        color: #fff;
-    }
-
-    header {
-        color: #fff;
-    }
-
-    .section-highlighted {
-        background-color: #F6F6F6;
-    }
-
-    footer {
-        background-color: var(--primary-color);
-    }
 }
